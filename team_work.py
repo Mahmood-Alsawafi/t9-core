@@ -16,6 +16,8 @@ elif opreation=="//":
      result = num_1 // num_2
 elif opreation=="mod":
      result = num_1 % num_2
+elif opreation=="mod":
+     result = num_1 % num_2
 
 else:
    print("opreation not supported")
