@@ -25,6 +25,14 @@ elif opreation == "random":
     result = random.randrange(num_1, num_2)
 elif opreation == "abs":
     result = abs(num_1), abs(num_2)
+elif opreation == "&":
+     result = num_1 & num_2
+elif opreation == "|":
+     result = num_1 | num_2
+elif opreation == "~":
+     result = ~num_1, ~num_2
+elif opreation == "^":
+     result = num_1 ^ num_2
 
 
 else:
