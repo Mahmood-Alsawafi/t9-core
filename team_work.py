@@ -3,7 +3,7 @@ import random
 
 num_1 = int(input("Enter the first number:"))
 num_2 = int(input("Enter the second number:"))
-opreation = input("Enter one of + - * ** / // mod ranmom abs & | ~ ^ %  : ")
+opreation = input("Enter one of + - * ** / // mod ranmom abs & | ~ ^ %  and !: ")
 
 if opreation == "+":
      result = num_1 + num_2
@@ -33,6 +33,14 @@ elif opreation == "~":
      result = ~num_1, ~num_2
 elif opreation == "^":
      result = num_1 ^ num_2
+elif opreation == "!":
+     answer = 1
+     limit = int(num_1)
+     while limit > 0:
+          answer = answer * limit
+          limit = limit - 1
+     result = answer
+
 
 
 else:
