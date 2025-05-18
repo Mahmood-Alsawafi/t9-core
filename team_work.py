@@ -1,8 +1,8 @@
 import random 
+import math
 
-
-num_1 = int(input("Enter the first number:"))
-num_2 = int(input("Enter the second number:"))
+num_1 = float(input("Enter the first number:"))
+num_2 = float(input("Enter the second number:"))
 opreation = input("Enter one of + - * ** / // mod ranmom abs & | ~ ^ %  : ")
 
 if opreation == "+":
@@ -33,6 +33,10 @@ elif opreation == "~":
      result = ~num_1, ~num_2
 elif opreation == "^":
      result = num_1 ^ num_2
+elif opreation == "sqroot":
+     result = math.sqrt(num_1), math.sqrt(num_2)
+elif opreation == "%0":
+     result = f"{num_1:.0%}", f"{num_2:.0%}"
 
 
 else:
