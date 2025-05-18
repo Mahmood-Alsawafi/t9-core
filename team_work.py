@@ -3,7 +3,7 @@ import math
 
 num_1 = float(input("Enter the first number:"))
 num_2 = float(input("Enter the second number:"))
-opreation = input("Enter one of + - * ** / // mod ranmom abs & | ~ ^ %  : ")
+opreation = input("Enter one of + - * ** / // mod ranmom abs & | ~ ^ sqroot %0 , %  : ")
 
 if opreation == "+":
      result = num_1 + num_2
